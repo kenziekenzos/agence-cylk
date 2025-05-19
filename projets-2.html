@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agence Cylk – Élégance & Création</title>
+  <link rel="stylesheet" href="wrapper-2.css">
+  <link rel="stylesheet" href="https://use.typekit.net/ttw8wyw.css">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=close" />
+  <script type="text/javascript" src="app.js" defer></script>
+ 
+</head>
+
+<body>
+
+  <header>
+   <a href="/Users/kenzamezouar/PRO/2025_Website-Cylk/www-c/wrapper-2.html"><div class="logo-agence"><img src="img/logo-cyan.png" width="130px"></div></a>
+     <!--<div class="logo-agence"><img src="img/logo-cylk.png" width="140px"></div>-->
+    <nav>
+      <ul class="sidebar">
+        <li onclick="hideSidebar()" class="close"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="32px"
+              viewBox="0 -960 960 960" width="32px" fill="white">
+              <path
+                d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+            </svg></a></li>
+        <li><a href="/Users/kenzamezouar/PRO/2025_Website-Cylk/www-c/about-2.html"> À propos</a></li>
+        <li><a href="#"> Services </a></li>
+        <li><a href="#"> Projets </a></li>
+        <li><a href="#"> Contacts </a></li>
+      </ul>
+      <ul class="container-nav">
+        <li class="hideOnMobile"><a href="#"> À propos</a></li>
+        <li class="hideOnMobile"><a href="#"> Services</a></li>
+        <li class="hideOnMobile"><a href="#"> Projets </a></li>
+        <li class="hideOnMobile"><a href="#"> Contacts</a></li>
+        <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="28px"
+              width="32px" viewBox="0 0 16 10" fill="#496577">
+              <!-- <path d="M120-240v-80h720v80h220Zm0-200v-80h720v80h220Zm0-200v-80h720v80h220Z" />-->
+              <path d="M1,1 L15,1 M1,5 L15,5 M1,9 L15,9" />
+            </svg></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  
+  <div class="container-main-about">
+    <!-- <section class="item item-type-a">Élégance et création</section>  <img src="img/SVG/row-2.svg" id="row2"> -->
+    
+<section class="item-title-about" >
+      <div class="h2__about">Pr<i>o</i>jets</div></section>
+ 
+  <section class="img-projet" >
+<img src="img/bch-mckp-spread-1.jpg" class="img-about" width="100%">      
+   </section>
+
+    <section class="item-projet" >
+    
+    <h3>Beachcomber</h3>
+    <p class="p__about">
+        Bien que notre cœur de métier soit les magazines, nous sommes graphistes avant tout et le print recouvre un très large
+        panel de possibilités créatives. Nous pouvons réaliser des dossiers de presse et des supports de communication à
+        l'instar de ceux que nous avons réalisés pour Palais des Thés, BeauxArts Consulting ou encore Canal+. </p>
+      </section>
+
+
+
+
+  </div>
+
+  <footer class="footer-about">
+    <img src="img/logo-white.png" width="140px">
+    <p>contact@agencecylk.com</p>
+    <p>Instagram</p>
+    <p>©Agence Cylk 2025</p>
+  </footer>
+
+
+
+  <script>
+    function showSidebar() {
+      const sidebar = document.querySelector('.sidebar')
+      sidebar.style.display = 'flex'
+    }
+    function hideSidebar() {
+      const sidebar = document.querySelector('.sidebar')
+      sidebar.style.display = 'none'
+    }
+
+
+  </script>
+</body>
+
+</html>

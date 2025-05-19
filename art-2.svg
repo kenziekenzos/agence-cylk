@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="petal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 124.97 225.12">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #957978;
+      }
+
+      .cls-2 {
+        fill: #ecb5b6;
+      }
+    </style>
+  </defs>
+  <path id="pink" class="cls-2" d="M108.33,116.67c0-55.23-44.77-100-100-100v100c0,55.23,44.77,100,100,100v-100Z"/>
+  <path id="brown" class="cls-1" d="M116.35,108.33c0-55.23-44.77-100-100-100v100c0,55.23,44.77,100,100,100v-100Z"/>
+</svg>
